@@ -9,6 +9,13 @@
 
     <artifactId>xchange-bankera</artifactId>
 
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
+
     <dependencies>
         <dependency>
             <groupId>info.bitrich.xchange-stream</groupId>
@@ -21,9 +28,9 @@
             <version>${project.parent.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.knowm.xchange</groupId>
-            <artifactId>xchange-bankera</artifactId>
-            <version>${xchange.version}</version>
+            <groupId>com.github.mindro</groupId>
+            <artifactId>XChange</artifactId>
+            <version>7619b466e3</version>
         </dependency>
     </dependencies>
 </project>
